@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin:0;
+}
+.header{
+    background-image: url(../img/headerFon.png);
+    background-repeat: no-repeat;
+    background-position-y: 34%;
+    background-position-x: 47%;
+    background-size: cover;
+    width: 100%;
+    height: 692px;
+}
+.header h3{
+    font-size: 61px;
+    text-align: center;
+    padding-top: 74px;
+
+    font-family: 'Exo';
+    font-weight: 100;
+    padding-left: 54px;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+}
+.header__center{
+   
+   justify-self: flex-start;
+    width: 200px;
+    height: 250px;
+    margin: 48px auto 0;
+  
+ justify-content: center;
+}
+#headerIco{
+      padding-left: 64px;
+}
+.header__center button{
+   
+    font-size: 26px;
+    margin-top: 38px;
+    color: #fff;
+    outline: none;
+    border: none;
+    background-color:#ff6d6d ;
+    padding:8px;
+    width: 187px;
+   margin-bottom:16px;
+   border-radius: 5px;
+}  
+.header__center span{
+     color: #8c8c8f;
+} 
+.BlockDesign{
+    display: flex;
+    justify-content: space-between;
+    width:100v ;
+    margin: 0 auto;
+    height:721px ;
+}
+.BlockDesign__right{
+    position: relative;
+    width:562px;
+    height: 721px;
+    overflow: hidden;
+    background-color: #ececec
+}
+.BlockDesign__right::before{
+    content: '';
+    color: #ff6d6d;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width:3px;
+    height: 45px;
+    left: 4px;
+    border: 647px solid transparent;
+    border-bottom: 557px solid #fb8686;
+}
+.BlockDesign__left{
+    width: 50%;
+    height: 400px;
+    padding-top: 189px;
+    padding-left: 110px;
+}
+.BlockDesign__left span{
+    color: #ff6d6d;
+    font-size: 16px;
+    letter-spacing: 3.39px;
+    font-weight: 500;
+    font-family: 'Exo';
+    word-spacing: 1.6px;
+}
+.BlockDesign__left h4{
+    margin-top: 4px;
+    font-size: 43px;
+    font-family: 'Exo';
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0.02px;
+    word-spacing: 1.6px;
+}
+.BlockDesign__left h4 >span{
+    color: #ff6d6d;
+    font-weight: 500;
+    font-size: 35px;
+}
+.BlockDesign__left p{
+    width: 600px;
+    color: #8a8a8a;
+    font-size: 17px;
+    font-family: 'Exo';
+    font-weight: 500;
+    line-height: 1.54;
+    letter-spacing: 0.27px;
+    
+}
+.marginP{
+    margin-top: 42px;
+}
+.marginBottomP{
+    margin-top:28px ;
+}
+.blockSome{
+    background-image: url(../img/fon3.jpg);
+    background-repeat: no-repeat;
+    background-position-y: -30px;
+    background-position-x: center;
+    background-color: #f6f5f3;
+    /* background-size: cover; */
+    width: 100%;
+    height: 672px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.blockSome >span{
+    padding-top: 132px;
+    display: block;
+    font-size: 17px;
+    color: #fb8686;
+    font-family: 'Exo';
+    font-weight: 500;
+    letter-spacing: 2.4px;
+    padding-right: 41px;
+
+}
+.blockSome >h4{
+    font-size: 43px;
+    font-family: 'Exo';
+    font-weight: 500;
+    padding-right: 41px;
+
+}
+.blockSome__table{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 78px;
+}
+.blockSome__table >div{
+    width:360px ;
+    font-size: 17px;
+    font-weight: 300;
+    font-family: 'Exo';
+    text-align: center;
+}
+.blockSome__table >div>h6{
+    font-size: 23px;
+    color: #282828;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-bottom: 5px;
+    margin-top: 16px;
+}
+.blockSome__table >div>P{
+    font-weight: 400;
+    line-height: 1.65;
+    font-weight: 500;
+}
+.BlockResposive{
+    width: 100%;
+    height: 550px;
+    position: relative;
+    overflow: hidden;
+}
+.BlockResposive::before{
+    content: '';
+    left: -592px;
+    top: -681px;
+    position: absolute;
+    width: 2px;
+    z-index: -1;
+    border: 634px solid transparent;
+    border-bottom: 668px solid #fb8686;
+}
+.BlockResposive__table{
+    display: flex;
+    margin:139px 4px 0 -116px;
+    justify-content: center;
+}
+.BlockResposive__image{
+    margin: -47px 10px 0px 8px;
+    
+}
+.BlockResposive__text{
+    width: 470px;
+    margin-left: 19px;
+    
+}
+.BlockResposive__text>span{
+    font-family: 'Exo';
+    width: 300px;
+    color: #ff6d6d;
+    font-size: 16px;
+    letter-spacing: 3.39px;
+    font-weight: 500;
+  
+    word-spacing: 1.6px;
+}
+.BlockResposive__text>h4{
+    font-size: 43px;
+    font-family: 'Exo';
+    font-weight: 500;
+    margin-top: 9px;
+    line-height: 1.25;
+    padding-right: 41px;
+    margin-bottom: 28px;
+}
+.BlockResposive__text>p{
+    color: #8a8a8a;
+    font-size: 17px;
+    font-family: 'Exo';
+    font-weight: 500;
+    line-height: 1.54;
+    letter-spacing: 0.27px;
+}
